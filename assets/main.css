@@ -115,3 +115,8 @@
     vertical-align: middle;
     color: lightgrey;
 }
+
+.software .logo {
+    text-align:center;
+    padding-top: 1em;
+}
