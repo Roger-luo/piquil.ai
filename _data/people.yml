@@ -4,54 +4,87 @@ leaders:
     - 
         name: Roger Melko
         title: Perimeter associate faculty member
+        favicon: rgmelko.png
 
     -   
         name: Isaac Tamblyn
         title: NRC/Perimeter Visiting Fellow
+        favicon: issac_tamblyn.jpg
 
     -   
         name: Juan Carrasquilla
         title: Vector Institute
+        favicon: juan_carrasquilla.jpg
 
     -   
         name: Pooya Ronagh
         title: 1QBit/IQC
+        favicon: pooya_ronagh.png
 
 postdoc:
     -   
         name: Estelle Inack
         title: Francis Kofi Allotey Fellow
+        favicon: estelle.jpeg
 
     -   
         name: Sebastian Wetzel
         title: NRC/PI
+        favicon: sebastian.jpeg
 
 graduates:
-    - Matthew Beach
-    - Anna Golubeva
-    - Xiu-Zhe (Roger) Luo
-    - Isaac De Vlugt
-    - Ejaaz Merali
+    - 
+        name: Matthew Beach
+        favicon: mbeach.png
+    - 
+        name: Anna Golubeva
+        favicon: anna_golubeva.jpg
+    - 
+        name: Xiu-Zhe (Roger) Luo
+        favicon: xzluo.jpg
+
+    - name: Isaac De Vlugt
+    
+    - name: Ejaaz Merali
 
 visiting:
     - 
         name: Brian Timar
         institute: Caltech
+        favicon: brian_timar.jpg
 
 1qbit:
-    - Aleksandr Berezutskii
-    - Bohdan Kulchytskyy
-    - Hao Ma
-    - Arthur Pesah
-    - Shengru Ren
-    - Artur Scherer
-    - Yongchao Tang
+    - 
+        name: Aleksandr Berezutskii
+        favicon: Alex-Berezutskii.jpg
+    - 
+        name: Bohdan Kulchytskyy
+        favicon: Bohdan_Kulchytskyy.jpg
+    - 
+        name: Hao Ma
+
+    - 
+        name: Arthur Pesah
+        favicon: arthur_pesah.jpeg
+
+    - 
+        name: Shengru Ren
+        favicon: shengru_ren.jpg
+
+    - 
+        name: Artur Scherer
+        favicon: Artur-Scherer.jpg
+
+    - 
+        name: Yongchao Tang
 
 alumni:
     - 
         name: Michael Albergo
         institute: New York University
+        favicon: michael_albergo.png
 
     -
         name: Giacomo Torlai
         institute: Flatiron Institute
+        favicon: giacomo_torlai.jpeg

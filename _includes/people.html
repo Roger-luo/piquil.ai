@@ -32,7 +32,11 @@
             {% for postdoc in site.data.people.postdoc %}
                 <div class="postdoc col-sm">
                     <div class="media">
-                        <img src="assets/images/person.png" class="mr-3">
+                        {% if postdoc.favicon %}
+                        <img src="assets/images/{{ postdoc.favicon }}" class="mr-3" width="80" height="80">
+                        {% else %}
+                        <img src="assets/images/person.png" class="mr-3" width="80" height="80">
+                        {% endif %}
                         <div class="media-body">
                             <h5 class="mt-0 name">{{ postdoc.name }}</h5>
                             <p class="name">
@@ -53,8 +57,12 @@
         <div class="row">
             {% for each in site.data.people.graduates %}
                 <div class="student col-sm">
-                    <img src="assets/images/person.png">
-                    <div class="name">{{ each }}</div>
+                    {% if each.favicon %}
+                        <img src="assets/images/{{ each.favicon }}" width="80" height="80">
+                    {% else %}
+                        <img src="assets/images/person.png" width="80" height="80">
+                    {% endif %}
+                    <div class="name">{{ each.name }}</div>
                 </div>
             {% endfor %}
         </div>
@@ -69,7 +77,11 @@
             {% for each in site.data.people.visiting %}
                 <div class="postdoc col-sm">
                     <div class="media">
-                        <img src="assets/images/person.png" class="mr-3">
+                        {% if each.favicon %}
+                            <img src="assets/images/{{ each.favicon }}" class="mr-3" width="80" height="80">
+                        {% else %}
+                            <img src="assets/images/person.png" class="mr-3" width="80" height="80">
+                        {% endif %}
                         <div class="media-body">
                             <h5 class="mt-0 name">{{ each.name }}</h5>
                             <p class="name">
@@ -90,8 +102,12 @@
         <div class="row">
             {% for each in site.data.people.1qbit %}
                 <div class="student col-sm">
-                    <img src="assets/images/person.png">
-                    <div class="name">{{ each }}</div>
+                    {% if each.favicon %}
+                    <img src="assets/images/{{ each.favicon }}" width="80" height="80">
+                    {% else %}
+                    <img src="assets/images/person.png" width="80" height="80">
+                    {% endif %}
+                    <div class="name">{{ each.name }}</div>
                 </div>
             {% endfor %}
         </div>
@@ -106,7 +122,12 @@
             {% for each in site.data.people.alumni %}
                 <div class="postdoc col-sm">
                     <div class="media">
-                        <img src="assets/images/person.png" class="mr-3">
+                        {% if each.favicon %}
+                        <img src="assets/images/{{ each.favicon }}" class="mr-3" width="80" height="80">
+                        {% else %}
+                        <img src="assets/images/person.png" class="mr-3" width="80" height="80">
+                        {% endif %}
+
                         <div class="media-body">
                             <h5 class="mt-0 name">{{ each.name }}</h5>
                             <p class="name">
