@@ -1,0 +1,121 @@
+<div class="people">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h3>Researchers</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <p>
+                    {{ site.data.people.intro }}
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h5>Scientific Leadership</h5>
+            </div>
+        </div>
+        
+        {% include leadership.html %}
+
+        <div class="row">
+            <div class="col">
+                <h5>Postdoctoral Fellows</h5>
+            </div>
+        </div>
+
+        <div class="row">
+            {% for postdoc in site.data.people.postdoc %}
+                <div class="postdoc col-sm">
+                    <div class="media">
+                        <img src="assets/images/person.png" class="mr-3">
+                        <div class="media-body">
+                            <h5 class="mt-0 name">{{ postdoc.name }}</h5>
+                            <p class="name">
+                                {{ postdoc.title }}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h5>Graduate Students</h5>
+            </div>
+        </div>
+
+        <div class="row">
+            {% for each in site.data.people.graduates %}
+                <div class="student col-sm">
+                    <img src="assets/images/person.png">
+                    <div class="name">{{ each }}</div>
+                </div>
+            {% endfor %}
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h5>Visiting Graduate Fellows</h5>
+            </div>
+        </div>
+
+        <div class="row">
+            {% for each in site.data.people.visiting %}
+                <div class="postdoc col-sm">
+                    <div class="media">
+                        <img src="assets/images/person.png" class="mr-3">
+                        <div class="media-body">
+                            <h5 class="mt-0 name">{{ each.name }}</h5>
+                            <p class="name">
+                                {{ each.institute }}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h5>1QBit Residents</h5>
+            </div>
+        </div>
+    
+        <div class="row">
+            {% for each in site.data.people.1qbit %}
+                <div class="student col-sm">
+                    <img src="assets/images/person.png">
+                    <div class="name">{{ each }}</div>
+                </div>
+            {% endfor %}
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h5>Lab Alumni</h5>
+            </div>
+        </div>
+
+        <div class="row">
+            {% for each in site.data.people.alumni %}
+                <div class="postdoc col-sm">
+                    <div class="media">
+                        <img src="assets/images/person.png" class="mr-3">
+                        <div class="media-body">
+                            <h5 class="mt-0 name">{{ each.name }}</h5>
+                            <p class="name">
+                                {{ each.institute }}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

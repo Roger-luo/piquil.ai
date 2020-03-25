@@ -1,0 +1,17 @@
+<div class="row">
+    {% for leader in site.data.people.leaders %}
+        <div class="leader col">
+            <div>
+                <img src="assets/images/leader.png">
+            </div>
+
+            <div class="name">
+                {{ leader.name }}
+            </div>
+
+            <div class="title">
+                {{ leader.title }}
+            </div>
+        </div>
+    {% endfor %}
+</div>

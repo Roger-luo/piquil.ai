@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% include head.html %}
+    <body class="{{ page.body-class }}">
+        {% include header.html %}
+
+        <div class="main-background {{ page.background-class }}"></div>
+
+        {% include banner.html %}
+
+        <div class="leadership index-container">
+            <div class="container">
+                <h3>Scientific Leadership</h3>
+        
+                {% include leadership.html %}
+            </div>
+        </div>
+
+        <div class="research index-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <h3>Research Topic</h3>
+                    </div>
+
+                    <div class="col-md-3" style="margin: auto">
+                        <a href="#"><i class="fa fa-arrow-right"></i> &nbsp; Publications</a>
+                    </div>
+                </div>
+                <p>
+                    Performing quantum state and process tomography on near-term quantum devices,
+                    using new neural network strategies Identification of unconventional order,
+                    including topological phases, many-body localized states, and their associated phase
+                    transitions, using machine learning techniques.
+                </p>
+
+                <p>
+                    The use of neural networks for decoding and quantum error correction. Theoretically
+                    exploring the capability of shallow and deep neural networks for the efficient
+                    representation of quantum wavefunctions.
+                </p>
+
+                <p>
+                    Developing a theoretical understanding of deep learning and its relationship to the information
+                    bottleneck, phase transitions, critical slowing down, and the renormalization group
+                </p>
+            </div>
+        </div>
+
+        <div class="partner index-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h3>Partner</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <a href="https://1qbit.com/">
+                            <img src="/assets/images/1qbit.png" style="padding-top: 1.5em;">
+                        </a>
+                    </div>
+
+                    <div class="col">
+                        <a href="https://uwaterloo.ca/">
+                            <img src="/assets/images/uwlogo.jpg" style="padding-top: 1.5em;">
+                        </a>
+                    </div>
+
+                    <div class="col">
+                        <a href="https://nrc.canada.ca/en">
+                            <img src="/assets/images/nrc.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% include footer.html %}
+    </body>
+</html>

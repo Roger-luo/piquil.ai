@@ -1,0 +1,117 @@
+.jumbotron {
+    margin-bottom: 0;
+    position: relative;
+    border-bottom: 1px thick;
+    background-color: #247A32;
+    border-radius: 0;
+}
+
+.jumbotron .container {
+    max-width: 750px;
+    position: relative;
+    padding-top: 32px;
+    text-align: left;
+    color: white;
+}
+
+.index-container {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    position: relative;
+    vertical-align: middle;
+    display: flex;
+    margin-right: 0;
+}
+
+.leadership {
+    padding-top: 2em;
+}
+
+.about img {
+    max-width: 100%;
+}
+
+.index-container .container {
+    padding-bottom: 2em;
+    border-bottom: dashed 2px #cccccc;
+}
+
+.people {
+    padding-top: 2em;
+}
+
+.leader {
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.leader .name {
+    font-weight: 600;
+}
+
+.leader .title {
+    font-weight: 300;
+}
+
+.postdoc {
+    vertical-align: middle;
+    text-align: left;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.postdoc h5.name {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.postdoc p.name {
+    font-size: 0.8rem;
+}
+
+.student {
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.student .name {
+    font-weight: 300;
+}
+
+.content {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.footer {
+    margin-top: 40px;
+    padding-bottom: 40px;
+    background-color: #247A32;
+    color: white;
+}
+
+.footer a {
+    color: lightgray;
+}
+
+.footer a:hover {
+    color: #EEEEEE;
+    text-decoration: none !important; 
+}
+
+.footer .address p {
+    line-height: 1em;
+    margin-bottom: 0.5em;
+    color: lightgrey;
+}
+
+.copyright {
+    margin-top: 1em;
+    text-align: center;
+    vertical-align: middle;
+    color: lightgrey;
+}
