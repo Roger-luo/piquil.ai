@@ -16,6 +16,10 @@ The rapid advance in artificial intelligence (AI) is attributed to decades of re
 
 PIQuIL is a research centre where resident physicists gather to advance the use of AI algorithms in quantum physics. Residents come from a mix of academia, government, and industry, and co-exist in a unique research space designed to foster cross-disciplinary collaboration. PIQuIL promotes the free exchange of scientific ideas, algorithms, and open source computer codes.
 
+<div style="text-align: center; padding-top: 40px; padding-bottom: 40px;">
+    <img src="../assets/images/pickle_office.png" width="50%">
+</div>
+
 PIQuIL is also a training hub, plugged into the larger academic environment of Perimeter. Physicists, already in high demand in both academia and industry, are uniquely positioned to fill the gap for PhD-level talent in AI research. PIQuIL helps to meet this demand by providing young talent with research experience and training that will enable them to become leaders in this emerging field.
 
 The mix of residents from academia, government, and industry creates in a constructive environment where they are permitted to manage their own intellectual property. Partners are free to use and adopt ideas, technology, and other properties conceived and developed at PIQuIL to further research or for-profit products and services. Software developed under the scientific direction of the Lab will typically be licensed as open source (e.g., Apache 2.0).
